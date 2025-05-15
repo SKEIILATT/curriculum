@@ -1,3 +1,57 @@
-body{
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+Reset de CSS
+*/
+*{
+    margin: 0;
+    padding: 0;
 }
+/*
+Nav bar
+*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid rgb(214, 213, 213);
+    width: auto;
+    height: auto;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:#0d82f6;
+}
+#barra-cv{
+    color:#0d82f6;
+    font-weight: bold;
+    font-size: 20px;
+}
+.li-nav{
+    color: black;
+}
+.button-contact{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(232, 228, 228) ;
+    border-style: solid;
+    cursor: pointer;     
+}
+.button-contact:hover{
+    background-color: rgb(240, 237, 237);
+}
+
