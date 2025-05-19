@@ -2,9 +2,10 @@
 /*
 Reset de CSS
 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*
 Nav bar
@@ -59,4 +60,45 @@ a:hover{
  Main Section
  ---
 */
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+#nombre-h1{
+    color: #0d82f6;;
+}
+#perfil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 249, 249);
+    padding: 2rem 2rem 2rem 100px;
+}
+.botones-perfil{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    margin: 10px 25px 0px 0px;
+    display: inline;
+}
+#texto-perfil{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+    margin-right: 3rem;
+}
+.img-perfil-redes{
+    height: 30px;
+    width: auto;
+}
+
+#idImg-perfil{
+    height: auto;
+    width: 20rem;
+    border-radius: 100%;
+
+}
+
 
