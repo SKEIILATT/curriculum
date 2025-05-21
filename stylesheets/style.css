@@ -6,6 +6,7 @@ Reset de CSS
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 /*
 Nav bar
@@ -16,7 +17,6 @@ nav{
     padding: 10px;
     margin: 10px 10px 0 10px;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
     border-bottom: 1px solid rgb(214, 213, 213);
     width: auto;
     height: auto;
@@ -44,7 +44,6 @@ a:hover{
 }
 .button-contact{
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
@@ -61,7 +60,6 @@ a:hover{
  ---
 */
 h1{
-    font-family: 'Poppins', sans-serif;
     font-size: 60px;
 }
 #nombre-h1{
@@ -83,7 +81,6 @@ h1{
     display: inline;
 }
 #texto-perfil{
-    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: gray;
     font-weight: 400;
