@@ -1,4 +1,4 @@
-# Curriculum Vitae de SKEIILATT
+# Curriculum Vitae de Javier Gutiérrez
 
 Este repositorio contiene mi Curriculum Vitae en formato web, donde presento mis habilidades, experiencia, proyectos y formación académica.  
 Está diseñado para mostrar de manera clara y ordenada mi trayectoria como profesional en Ciencias de la Computación, incluyendo ejemplos de trabajos realizados y enlaces a mis redes y proyectos destacados.
