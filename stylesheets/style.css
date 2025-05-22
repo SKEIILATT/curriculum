@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*
-Reset de CSS
+Reset de CSS y demás
 */
 * {
   margin: 0;
@@ -9,17 +9,38 @@ Reset de CSS
   font-family: 'Poppins', sans-serif;
 }
 /*
+Subtitulo de las secciones
+*/
+.subtitulo-secciones{
+    text-align: center;
+    margin: 3rem 0 3rem 0 ;
+}
+.subtitulo-secciones h2{
+    font-size: 40px;
+}
+.subtitulo-secciones p{
+     color: gray;
+     font-size: 20px;
+     text-wrap: wrap;
+}
+
+/*
 Nav bar
 */
 nav{
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     justify-content: space-between;
-    padding: 10px;
-    margin: 10px 10px 0 10px;
+    padding: 20px;
+
     font-size: 15px;
     border-bottom: 1px solid rgb(214, 213, 213);
-    width: auto;
     height: auto;
+    background-color: white;
 }
 ul{
     display: flex;
@@ -70,6 +91,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(252, 249, 249);
+    margin-top: 50px;
     padding: 2rem 2rem 2rem 100px;
 }
 .botones-perfil{
@@ -86,6 +108,9 @@ h1{
     font-weight: 400;
     margin-right: 3rem;
 }
+#contenedor-img-perfil{
+    margin-top: 30px;
+}
 .img-perfil-redes{
     height: 30px;
     width: auto;
@@ -95,7 +120,38 @@ h1{
     height: auto;
     width: 20rem;
     border-radius: 100%;
-
 }
 
+/*
+ Sección Experiencia
+ ---
+*/
+
+/*
+ Sección Proyectos Destacados
+ ---
+*/
+.contenedor-proyectos{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    margin-bottom: 30px;
+}
+.imgs-proyectos{
+    width: 45vw;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.img-logo-proyecto{
+    width: 30px;
+    height: auto;
+}
+.botones-codigo{
+    width: 8vw;
+    height: auto;
+    text-align: left;
+        
+}
 
