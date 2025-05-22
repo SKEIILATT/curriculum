@@ -134,13 +134,32 @@ h1{
 .contenedor-proyectos{
     display: flex;
     flex-direction: column;
-    background-color: red;
-    margin-bottom: 30px;
+    margin: 30px 5px 12px 5px;
+    margin-left: 12px;
+    width: min-content;
+    border: 2px solid rgb(226, 222, 222);
+    border-radius: 4%;
+    padding: 10px;
 }
+.contenedor-proyectos p {
+    color: gray;
+}
+.contenedor-proyectos li {
+    border: 2px solid rgb(226, 222, 222);
+    background-color: rgb(212, 207, 207);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px 0 20px 0;
+}
+.contenedor-proyectos h3,
+.contenedor-proyectos p,
+.contenedor-proyectos ul {
+    padding: 20px;
+}
+
 .imgs-proyectos{
     width: 45vw;
     height: auto;
-    border: 1px solid black;
     border-radius: 10px;
 }
 
@@ -151,7 +170,7 @@ h1{
 .botones-codigo{
     width: 8vw;
     height: auto;
-    text-align: left;
-        
+    text-align: left;   
 }
+
 
