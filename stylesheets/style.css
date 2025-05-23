@@ -134,9 +134,10 @@ h1{
 .contenedor-proyectos{
     display: flex;
     flex-direction: column;
-    margin: 30px 5px 12px 5px;
+    margin: 30px 5px 10px 5px;
     margin-left: 12px;
     width: min-content;
+    height: auto;
     border: 2px solid rgb(226, 222, 222);
     border-radius: 4%;
     padding: 10px;
@@ -159,7 +160,7 @@ h1{
 
 .imgs-proyectos{
     width: 45vw;
-    height: auto;
+    height: 45vh;
     border-radius: 10px;
 }
 
@@ -170,7 +171,35 @@ h1{
 .botones-codigo{
     width: 8vw;
     height: auto;
-    text-align: left;   
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(201, 198, 198);
 }
-
-
+.contenedor-botones-proyectos{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+#proyectos{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+#proyectos > .subtitulo-secciones{
+    width: 100%;
+}
+/*
+ Sección Educación
+ ---
+*/
+.contenedor-institucion{
+    display: flex;
+    border: 2px solid black;
+    width: min-content  ;
+    
+    
+}
