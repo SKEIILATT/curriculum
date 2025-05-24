@@ -131,6 +131,7 @@ h1{
  Sección Proyectos Destacados
  ---
 */
+
 .contenedor-proyectos{
     display: flex;
     flex-direction: column;
@@ -188,6 +189,7 @@ h1{
 #proyectos{ 
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(252, 249, 249);
 }
 #proyectos > .subtitulo-secciones{
     width: 100%;
@@ -199,7 +201,60 @@ h1{
 .contenedor-institucion{
     display: flex;
     border: 2px solid black;
-    width: min-content  ;
-    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
     
 }
+.img-instituciones, .mapa-instituciones{
+    width: 20vw;
+    height: 40vh;
+    margin-right: 50px;
+}
+.tiempo-institucion{
+    padding: 10px;
+    background-color: #ccffee;
+    color: #0d82f6;
+    font-weight: bold;
+    border-radius: 0 20% 0 20%;
+}
+.informacion-institucion p{
+    color: gray;
+
+}
+.informacion-institucion li{
+    color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+/*
+ Sección Educación
+ ---
+*/
+
+/*
+ Sección habilidades
+ ---
+*/
+#habilidades{
+    background-color: rgb(252, 249, 249);
+}
+/*
+ Sección sobre mi
+ ---
+*/
+
+/*
+ Sección referencias personales
+ ---
+*/
+#referencias{
+    background-color: rgb(252, 249, 249);
+}
+/*
+ Sección contacto
+ ---
+*/
