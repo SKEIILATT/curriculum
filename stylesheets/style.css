@@ -139,7 +139,7 @@ h1{
     margin-left: 12px;
     width: min-content;
     height: auto;
-    border: 2px solid rgb(226, 222, 222);
+    border: 2px solid #0d82f6;
     border-radius: 4%;
     padding: 10px;
 }
@@ -200,12 +200,14 @@ h1{
 */
 .contenedor-institucion{
     display: flex;
-    border: 2px solid black;
-    width: 100%;
+    border: 1px solid #0d82f6;
+    border-radius: 10%;
+    width: 50%;
     justify-content: center;
     align-items: center;
     padding: 35px;
-    
+    margin-left: 25%;
+    margin-bottom: 20px ;
 }
 .img-instituciones, .mapa-instituciones{
     width: 20vw;
@@ -214,8 +216,8 @@ h1{
 }
 .tiempo-institucion{
     padding: 10px;
-    background-color: #ccffee;
-    color: #0d82f6;
+    background-color: #4092e3;
+    color: white;
     font-weight: bold;
     border-radius: 0 20% 0 20%;
 }
@@ -224,10 +226,11 @@ h1{
 
 }
 .informacion-institucion li{
-    color: gray;
+    color: white;
     border: 1px solid gray;
     padding: 10px;
     border-radius: 10%;
+    background-color: #0d82f6;
 }
 
 /*
@@ -242,19 +245,152 @@ h1{
 #habilidades{
     background-color: rgb(252, 249, 249);
 }
+.titulo-seccion{
+    font-size: 30px;
+    text-align: center;
+}
+.contenedor-img-tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 15%;
+    
+}
+.nombre-tecnologia{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+.figura-tecnología{
+    border: 0.5px solid #0d82f6;
+    padding: 30px;
+    border-radius: 20%;
+    background-color: white;
+}
+
+.img-tecnologias{
+    width: 10vw;
+    height: 20vh;
+}
+/*
+ Sección video y tabla
+ ---
+*/
+.contendor-general{
+    display: flex;
+    margin: 0 0 50px 70px;
+    gap: 15%;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #0d82f6;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+}
+
+td {
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+tr:hover td {
+  background-color: #f5f5f5;
+}
+
 /*
  Sección sobre mi
  ---
 */
+#sub-info{
+    font-weight: bold;
+}
+#sobre-mi{
+    background-color: rgb(252, 249, 249);
+}
+#img-sobre-mi{
+    width: 30vw;
+    height: 70vh;
+    margin: 50px 0 80px 40px;
+    border-radius: 10%;
+    
+}
+.contendor-informacion-sobreMi{
+    display: flex;
+    gap: 5%;
+}
+#info-sobre-mi{
+    color: gray;
+    font-size: 18px;
+    text-align: justify;
+}
+.contenedor-informacion{
+    margin: 0 40px 0 0;
+}
+#boton-descarga-cv{
+    font-size: 15px;
+    background-color: #0d82f6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(255, 253, 253) ;
+    border-style: solid;
+    cursor: pointer;
+    margin: 30px 0 0 0 ;
+}
 
 /*
  Sección referencias personales
  ---
 */
-#referencias{
-    background-color: rgb(252, 249, 249);
+
+.testimonio{
+    display: flex;
+    gap: 1%;
+    margin-bottom: 20px;
+    border-radius: 500px;
+    padding: 40px;
+    margin: 0 50px 0 20px;
+}
+.img-referencia-personal{
+    width: 500px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.nombre-referencia{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+blockquote{
+    font-size: 25px;
+    color: #0d82f6;
+    text-align: justify;
+    margin-top: 50px;
+    font-weight: bold;
+}
+blockquote p{
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
 }
 /*
  Sección contacto
  ---
 */
+#contacto{
+    background-color: rgb(252, 249, 249);
+}
