@@ -19,7 +19,7 @@ Subtitulo de las secciones
     font-size: 40px;
 }
 .subtitulo-secciones p{
-     color: gray;
+     color: #555;
      font-size: 20px;
      text-wrap: wrap;
 }
@@ -126,6 +126,47 @@ h1{
  Sección Experiencia
  ---
 */
+.contenedor-experiencia {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10), 0 1.5px 4px rgba(0,0,0,0.08);
+    padding: 2rem 2.5rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contenedor-experiencia:hover, .contenedor-proyectos:hover, .contenedor-img-tecnologias:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15), 0 3px 8px rgba(0,0,0,0.10);
+}
+
+.contenedor-experiencia img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background: #f3f3f3;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.contenedor-experiencia h3 {
+    font-size: 1.3rem;
+    color: #2d3a4a;
+    margin: 0.5rem 0 0.2rem 0;
+    text-align: center;
+}
+
+.contenedor-experiencia p {
+    color: #555;
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    text-align: center;
+}
 
 /*
  Sección Proyectos Destacados
@@ -135,16 +176,16 @@ h1{
 .contenedor-proyectos{
     display: flex;
     flex-direction: column;
-    margin: 30px 5px 10px 5px;
-    margin-left: 12px;
+    margin: 30px 5px 10px 60px;
+    border: 1px solid #cfcbcb;
     width: min-content;
     height: auto;
-    border: 1px solid #0d82f6;
     border-radius: 4%;
     padding: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 .contenedor-proyectos p {
-    color: gray;
+    color: #555;
 }
 .contenedor-proyectos li {
     border: 2px solid rgb(226, 222, 222);
@@ -160,8 +201,8 @@ h1{
 }
 
 .imgs-proyectos{
-    width: 45vw;
-    height: 45vh;
+    width: 40vw;
+    height: 35vh;
     border-radius: 10px;
 }
 
@@ -200,7 +241,7 @@ h1{
 */
 .contenedor-institucion{
     display: flex;
-    border: 1px solid #0d82f6;
+    border: 1px solid #cfcbcb;
     border-radius: 10%;
     width: 50%;
     justify-content: center;
@@ -222,7 +263,7 @@ h1{
     border-radius: 0 20% 0 20%;
 }
 .informacion-institucion p{
-    color: gray;
+    color: #555;
 
 }
 .informacion-institucion li{
@@ -252,13 +293,14 @@ h1{
     align-items: center;
     padding: 30px;
     gap: 15%;
+    transition: transform 0.2s, box-shadow 0.2s;
     
 }
 .nombre-tecnologia{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    color: gray;
+    color: #555;
 }
 .figura-tecnología{
     border: 0.5px solid #0d82f6;
@@ -327,7 +369,7 @@ tr:hover td {
     gap: 5%;
 }
 #info-sobre-mi{
-    color: gray;
+    color: #555;
     font-size: 18px;
     text-align: justify;
 }
@@ -350,20 +392,33 @@ tr:hover td {
  Sección referencias personales
  ---
 */
-
+#referencias{
+    background: #f8fafc;
+    padding: 2.5rem 0;
+}
 .testimonio{
+    background: #fff;
     display: flex;
     gap: 1%;
     margin-bottom: 20px;
-    border-radius: 500px;
-    padding: 40px;
-    margin: 0 50px 0 20px;
+    border-radius: 18px;
+    padding: 2rem 2.5rem;
+    
+    align-items: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10), 0 1.5px 4px rgba(0,0,0,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
+.testimonio:hover{
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15), 0 3px 8px rgba(0,0,0,0.10);
+}
+
 .img-referencia-personal{
-    width: 500px;
-    height: 220px;
+    width: 200px;
+    height: 140px;
     border-radius: 50%;
-    object-fit: contain;
+    border: 3px solid #4f5d75;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
 .nombre-referencia{
     text-align: center;
@@ -378,7 +433,7 @@ blockquote{
     font-weight: bold;
 }
 blockquote p{
-    color: gray;
+    color: #555;
     font-size: 18px;
     font-weight: normal;
 }
@@ -445,4 +500,13 @@ blockquote p{
 .subtitulo-secciones .parrafo-descriptivo {
   margin: 0.5rem 0 0;
   font-style: italic;
+}
+#contacto iframe{
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
 }
