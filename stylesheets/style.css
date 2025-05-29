@@ -506,6 +506,11 @@ blockquote p{
     margin-top: 20px;
 }
 
+#ubicacion{
+    text-align: center;
+    color: #555;
+}
+
 footer{
     text-align: center;
     font-weight: bold;
