@@ -510,8 +510,165 @@ blockquote p{
     text-align: center;
     color: #555;
 }
-
+/*
+ Sección footer
+ ---
+*/
 footer{
     text-align: center;
     font-weight: bold;
+}
+#mi-ubi{
+    width: 60vw;
+    height: auto;
+}
+
+/*
+ MEDIA QUERIES
+ ---
+*/
+@media(max-width: 720px){
+    /*
+        HEADER
+        ---
+    */
+    nav{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    #barra-cv{
+        text-align: center;
+    }
+    /*
+        Main
+        ---
+    */
+    #perfil{
+        display: block;
+        margin: 200px 0 20px 0;
+        padding: 10px;
+        text-align: center;
+    }
+    #texto-perfil{
+        text-align: justify;
+        margin-left: 40px;
+    }
+    /*
+        Proyectos Destacados
+        ---
+    */
+    .contenedor-proyectos{
+      
+        width: 100%;
+        height: auto;
+        margin: 10px 0 10px 10px;
+    }
+    .imgs-proyectos{
+        width: 90vw;
+        height: 40vh;
+    }
+    .contenedor-botones-proyectos{
+        justify-content: space-around;
+    }
+    .botones-codigo{
+        width: 50vw;
+        height: auto;
+        justify-content: center;
+        margin-right: 30px;
+    }
+    /*
+        Educación
+        ---
+    */
+    .contenedor-institucion{
+        width: 90vw;
+        height: auto;
+        padding: 40px;
+        margin-left: 20px;
+        
+    }
+    .contenedor-imagenMapa{
+        display: none;
+    }
+    /*
+        Sección tecnologías
+        ---
+    */
+    .img-tecnologias{
+        width: 15vw;
+        height: auto;
+        
+    }
+    .figura-tecnología{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /*
+        Sobre Mi
+        ---
+    */
+    .contendor-informacion-sobreMi figure{
+        margin: 0;
+    }
+    .contendor-informacion-sobreMi {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 50px;
+    }
+
+    #img-sobre-mi{
+        width: 60vw;
+        height: auto;
+        margin: 60px 0 0 0;
+        border-radius: 10%;
+    }
+    .contenedor-informacion {
+        margin: 0;
+        width: 90vw;
+    }
+
+    /*
+        Video y Tabla
+        ---
+    */
+    .contendor-general{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 20px;
+    }
+    #video-demo{
+        width: 90vw;
+        margin-bottom: 40px;
+    }
+    /*
+        Referencias
+        ---
+    */
+    .testimonio{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img-referencia-personal{
+        text-align: center;
+        margin: 0 0 10px 50px;
+    }
+   
+    #mi-ubi {
+        margin: 20px 0 0 0;
+        padding: 0;
+        width: 70%;
+        height: 40vh; /* o ajusta según lo que prefieras */
+        display: block;
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
 }
