@@ -21,7 +21,7 @@ Este proyecto está desarrollado con tecnologías web estándar:
 ## 🌐 Visualización
 
 Puedes ver una versión en vivo de mi currículum en:  
-[CV](https://skeiilatt.github.io/curriculum/)
+[CV]()
 
 ## 📬 Contacto
 
